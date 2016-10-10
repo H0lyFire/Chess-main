@@ -92,10 +92,6 @@ public class Rook {
 					main.Plays.Countpl(1);
 					break;
 				}
-				board.Board.setPos(xi, yi);
-				memi = board.Board.getPos();
-				board.Board.setPos(xf, yf);
-				memf = board.Board.getPos();
 			}
 
 		} else if (xf != xi) {
@@ -113,13 +109,13 @@ public class Rook {
 					main.Plays.Countpl(1);
 					break;
 				}
-				board.Board.setPos(xi, yi);
-				memi = board.Board.getPos();
-				board.Board.setPos(xf, yf);
-				memf = board.Board.getPos();
-				memfp=memf.charAt(1);
-				memip=memi.charAt(1);
 			}
 		}
+		board.Board.setPos(xi, yi);
+		memi = board.Board.getPos();
+		board.Board.setPos(xf, yf);
+		memf = board.Board.getPos();
+		memfp=memf.charAt(1);
+		memip=memi.charAt(1);
 	}
 }

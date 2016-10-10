@@ -30,8 +30,8 @@ public final class Board {
 	static String pos = "  ";
 
 	public void Board() {
-		mempb[8] = "PB";
-		mempw[8] = "PW";
+		mempb[8] = "  ";
+		mempw[8] = "  ";
 		if (begin == 0) {
 			for (int x = 0; x < 8; x++) {
 
